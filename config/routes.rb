@@ -1,3 +1,3 @@
-OrderApp::Application.routes.draw
-  resources :categories
+OrderApp::Application.routes.draw do
+  resources :category
 end

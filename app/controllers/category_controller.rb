@@ -1,4 +1,4 @@
-class CategoriesController < ApplicationController
+class CategoryController < ApplicationController
 	def new
 		@category = Category.new
 
